@@ -53,27 +53,7 @@ GROUP BY CustomerID;
 
 ![Total Orders](total_order.png)
 
----
 
-## 3️⃣ Total Quantity Sold per Product
-```sql
-SELECT ProductID, SUM(Quantity) AS TotalSold
-FROM Orders
-GROUP BY ProductID;
-```
-
-![Total Quantity Sold](total_quantity.png)
----
-
-## 4️⃣ Average Product Price by Category
-```sql
-SELECT Category, AVG(Price) AS AvgPrice
-FROM Products
-GROUP BY Category;
-
-
-![Average Product Price ](average_product_price.png)
----
 
 # 🎯 Learning Outcomes
 
@@ -98,3 +78,4 @@ Skills:
 - Python
 
 - Power BI
+
