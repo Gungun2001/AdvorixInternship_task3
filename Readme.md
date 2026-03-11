@@ -51,7 +51,7 @@ FROM Orders
 GROUP BY CustomerID;
 ```
 
-![Total Orders](total_orders.png)
+![Total Orders](total_order.png)
 
 ---
 
@@ -96,4 +96,5 @@ Skills:
 - SQL
 - Excel
 - Python
+
 - Power BI
